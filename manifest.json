@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Easy URL Re-Root",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+
+      
+    },
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
